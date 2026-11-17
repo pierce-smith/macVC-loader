@@ -1,0 +1,25 @@
+# build output (./build.sh)
+build/
+*.dylib
+*.o
+*.dSYM/
+
+# untouched macVC binaries saved by install.sh - game files, never commit
+backup/
+*.orig
+
+# runtime files the loader/plugins write
+*.log
+*.ini.old
+
+# macOS
+.DS_Store
+._*
+
+# editors
+.vscode/
+.idea/
+*.swp
+
+# release zips (./package.sh)
+dist/
