@@ -14,7 +14,7 @@ cp build/macVCLoader.dylib build/mvc-patch "$STAGE/build/"
 cp build/frameworks/*.dylib "$STAGE/build/frameworks/"
 cp build/plugins/*.dylib(N) "$STAGE/build/plugins/"
 cp build/scripts/*.dylib(N) "$STAGE/build/scripts/"
-cp install.sh uninstall.sh Install.command "Safe Mode.command" README.md CHANGELOG.md "$STAGE/"
+cp install.sh uninstall.sh Install.command "Safe Mode.command" README.md CHANGELOG.md LICENSE "$STAGE/"
 cp include/macvc.h "$STAGE/include/"
 osacompile -o "$STAGE/macVC Loader Installer.app" installer/Installer.applescript
 # the drag-and-drop layout: these go straight into macVC.app/Contents

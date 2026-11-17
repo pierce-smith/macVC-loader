@@ -209,3 +209,7 @@ settings are under Options > Mods > More Gore (saved in `GameData/plugins/MoreGo
 - the original authors of the Big Cojones scripts and mods
 
 no game files are in this repo or the release, you need your own copy of Vice City. the loader has none of reVC's source in it, it only looks up function names in your own macVC.
+
+## license
+
+MIT, see [LICENSE](LICENSE). the cleo tables in `loader/cleo_*.h` are built from plugin-sdk data (zlib license). release zips also ship macVC's own `libmpg123`, which is LGPL and comes unmodified from macVC.
